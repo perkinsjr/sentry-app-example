@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <button
           onClick={() => {
-            throw new Error('Hello from the frontend')
+            alert('Hello World!')
           }}
         >
           Click me!
